@@ -1,8 +1,8 @@
 on:
   push:
     branches:
-      - homolog
-name: Deploy website on push
+      - develop
+name: Deploy homolog website on push
 jobs:
   web-deploy:
     name: Deploy
@@ -17,4 +17,4 @@ jobs:
       server: ${{ secrets.ftp_host }}
       username: ${{ secrets.ftp_user }}
       password: ${{ secrets.ftp_password }}
-      server-dir: sgo.rasna2tec.dev.br/public/
+      server-dir: sgo.rasna2tec.dev.br
