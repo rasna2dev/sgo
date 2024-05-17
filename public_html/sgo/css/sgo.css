@@ -1,0 +1,14 @@
+.theme-red .navbar { background-color: #2e3192; }
+.form-control.uppercase { text-transform: uppercase; }
+.form-control.lowercase { text-transform: lowercase; }
+.border-top { border-top: 1px solid #bbb; }
+.table > tbody > tr > td
+    , .table > tbody > tr > th .vertical-align-middle
+    , .table > tfoot > tr > th .vertical-align-middle
+    , .table > tfoot > tr > td .vertical-align-middle { vertical-align: middle }
+.table > tfoot > tr > th.paginate > a { color: #333; !important; }
+.table > tfoot > tr > th.paginate > span { color: #ccc !important; }
+.table > tfoot > tr > th.paginate > span.active { color: #F44336 !important; }
+.theme-red .sidebar .menu .list li.active > :first-child i, .theme-red .sidebar .menu .list li.active > :first-child span {
+    color: #fe6d12;
+}
