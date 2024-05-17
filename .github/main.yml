@@ -1,7 +1,7 @@
 on:
   push:
     branches:
-      - homolog
+      - develop
 name: Deploy website on push
 jobs:
   web-deploy:
