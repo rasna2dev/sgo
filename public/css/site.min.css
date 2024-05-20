@@ -1,0 +1,114 @@
+.btn-entre-contato {
+    display: inline-block;
+    background-color: #25d366;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    width: 200px;
+    text-align: center;
+}
+
+.btn-entre-contato i {
+    margin-right: 10px;
+}
+.btn-entre-contato:hover {
+    background-color: #128c7e;
+}
+.btn-entre-contato:link,
+.btn-entre-contato:visited {
+    color: #fff;
+}
+.btn-entre-contato:hover,
+.btn-entre-contato:active {
+    color: #fff;
+    text-decoration: none;
+}
+.btn-voltar {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    width: 200px;
+    text-align: center;
+}
+.btn-voltar i {
+    margin-right: 10px;
+}
+.btn-voltar:hover {
+    background-color: #0056b3;
+}
+.btn-voltar:link,
+.btn-voltar:visited {
+    color: #fff;
+}
+.btn-voltar:hover,
+.btn-voltar:active {
+    color: #fff;
+    text-decoration: none;
+}
+#combo_paginacao {
+    border: none;
+    padding: none;
+    margin: none;
+    background: none;
+    color: #ffa900;
+}
+.opaque-background {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.foto-imovel {
+    width: 570px;
+    max-width: 570px;
+    /* height: 310px; */
+    max-height: 310px;
+    padding: 4px;
+    line-height: 1.5;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+.sem-foto-imovel {
+    padding: 4px;
+    line-height: 1.5;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+.button-secondary, .button-secondary:focus {
+    color: #fff;
+    background-color: #fe6d12;
+    border-color: #fe6d12;
+}
+.ui-to-top, .ui-to-top:active, .ui-to-top:focus {
+    color: #fff;
+    background-color: #fe6d12;
+}
+.rd-navbar-static .rd-navbar-nav > li.active > a, .rd-navbar-fullwidth .rd-navbar-nav > li.active > a {
+    color: #fe6d12;
+    background: #fff0;
+}
+a {
+    color: #fe6d12;
+    text-decoration: none;
+    transition: .25s;
+}
+.team-classic-title {
+    color: #fe6d12;
+    font-weight: 400;
+}
